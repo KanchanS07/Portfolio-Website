@@ -21,3 +21,56 @@
     color: white;
 }
 
+
+/* Media Queries for Responsive Design */
+
+/* For extra small devices (phones, max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .page-header {
+        font-size: 36px; /* Reduced font size for header */
+        padding: 15px; /* Reduced padding */
+        text-align: center; /* Centered header */
+    }
+
+    .project-container {
+        width: 100%; /* Full width for smaller screens */
+        padding: 1rem; /* Reduced padding */
+        gap: 40px; /* Reduced gap between projects */
+    }
+
+    /* You may want to target the ProjectCard component's CSS here to ensure proper sizing */
+}
+
+/* For small devices (tablets, max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .page-header {
+        font-size: 60px; /* Adjusted font size for tablets */
+        padding: 20px; /* Adjusted padding */
+    }
+
+    .project-container {
+        width: 90%; /* Reduced width for tablets */
+        gap: 80px; /* Adjusted gap between projects */
+    }
+}
+
+/* For medium devices (desktops, min-width: 769px) */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .page-header {
+        font-size: 75px; /* Adjusted font size for medium desktops */
+        padding: 25px; /* Adjusted padding */
+    }
+
+    .project-container {
+        width: 1000px; /* Adjusted width for medium desktops */
+        gap: 100px; /* Adjusted gap between projects */
+    }
+}
+
+/* For large devices (large desktops, min-width: 1200px) */
+@media screen and (min-width: 1200px) {
+    .project-container {
+        width: 1200px; /* Maintain original width for large desktops */
+        gap: 120px; /* Keep original gap between projects */
+    }
+}

@@ -77,3 +77,121 @@
 .skill-subHeading p{
   margin:15px 0;
 }
+
+
+/* For extra small devices (phones, max-width: 480px) */
+@media screen and (max-width: 430px) {
+    .about-heading {
+        font-size: 1.5rem; /* Smaller heading size */
+        text-align: center; /* Center align heading */
+    }
+
+    .about-content {
+        font-size: 1rem; /* Smaller paragraph size */
+        line-height: 1.5; /* Adjust line height for better readability */
+         flex-direction: column;
+      }
+
+    .about-section {
+        padding: 1rem; /* Reduced padding for mobile */
+         display: none;
+      }
+      
+}
+
+
+
+/* Tablet Screens (768px and up) */
+@media screen and (min-width: 768px) {
+  .skills-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .skill-container-left {
+    width: 60%;
+  }
+
+  .skill-container-right {
+    width: 40%;
+  }
+
+  .skill-heading {
+    font-size: 28px;
+  }
+
+  .skill-subHeading p {
+    font-size: 18px;
+  }
+
+  .skills-logo {
+    width: 60px;
+  }
+}
+
+/* Desktop Screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .skills-container {
+    padding: 40px;
+  }
+
+  .skill-container-left {
+    width: 55%;
+  }
+
+  .skill-container-right {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-heading {
+    font-size: 32px;
+  }
+
+  .skill-subHeading p {
+    font-size: 20px;
+  }
+
+  .skills-logo {
+    width: 70px;
+  }
+
+  .blob-style {
+    max-width: 400px;
+  }
+}
+
+/* Large Desktop Screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .skill-container-left {
+    width: 50%;
+  }
+
+  .skill-container-right {
+    width: 45%;
+  }
+
+  .skills-logo {
+    width: 80px;
+  }
+
+  .skill-heading {
+    font-size: 36px;
+  }
+
+  .skill-subHeading p {
+    font-size: 22px;
+  }
+
+  .blob-style {
+    max-width: 500px;
+  }
+}

@@ -80,3 +80,51 @@ p {
   font-size: 24px;
   margin-right: 10px;
 }
+
+
+
+
+
+/* Media Queries for Responsive Design */
+
+/* For extra small devices (phones, max-width: 480px) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller heading size */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller paragraph size */
+    }
+
+    .red-btn {
+        padding: 0.5rem 1.5rem; /* Reduced padding for mobile */
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
+    .project-skill {
+        width: 30px; /* Smaller skill icons */
+        height: 30px; /* Smaller skill icons */
+    }
+
+    /* Additional adjustments for sections if necessary */
+    .section {
+        padding: 1rem; /* Reduced padding for sections */
+    }
+}
+
+/* For small devices (tablets, max-width: 768px) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem; /* Adjusted heading size */
+    }
+
+    p {
+        font-size: 1.1rem; /* Adjusted paragraph size */
+    }
+
+    .red-btn {
+        padding: 0.7rem 2rem; /* Adjust padding for tablets */
+        font-size: 16px; /* Adjust font size for tablets */
+    }
+}

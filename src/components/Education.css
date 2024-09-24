@@ -46,3 +46,106 @@ main.row {
   text-decoration: none;
   color: #131313;
 }
+
+
+
+/* Tablet Screens (768px and up) */
+@media screen and (min-width: 768px) {
+  .main.row {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8em;
+  }
+
+  .col .contents {
+    padding: 0 30px;
+  }
+
+  .col header .title {
+    padding: 0 0 20px 40px;
+  }
+
+  .col .contents .box {
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+
+  .col .contents .box::before {
+    margin-left: -50.25px;
+  }
+}
+
+/* Desktop Screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .main.row {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10em;
+  }
+
+  .col .contents {
+    padding: 0 40px;
+  }
+
+  .col header .title {
+    font-size: 1.8em;
+    padding: 0 0 20px 50px;
+  }
+
+  .col .contents .box {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .col .contents .box::before {
+    width: 18px;
+    height: 18px;
+    margin-left: -40px;
+  }
+}
+
+/* Large Desktop Screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .main.row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .col header .title {
+    font-size: 2em;
+    padding: 0 0 20px 60px;
+  }
+
+  .col .contents {
+    padding: 0 50px;
+  }
+
+  .col .contents .box {
+    padding: 35px;
+    margin-bottom: 35px;
+  }
+
+  .col .contents .box::before {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
+/* Mobile Styles (up to 768px) */
+@media screen and (max-width: 768px) {
+ /* Education Styles */
+  .skills-container {
+    padding: 1rem; /* Adjust container padding */
+  }
+
+  .skill-heading {
+    font-size: 2em; /* Smaller heading size */
+  }
+
+  .skill-subHeading p {
+    font-size: 1rem; /* Adjust font size for paragraphs */
+  }
+
+  .row {
+    grid-template-columns: 1fr; /* Stack columns on smaller screens */
+  }
+}

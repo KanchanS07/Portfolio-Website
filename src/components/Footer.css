@@ -47,3 +47,112 @@ footer{
     color: black;
     font-weight: bold; 
 }
+
+
+/* Mobile Styles (up to 768px) */
+@media screen and (max-width: 768px) {
+   /* Footer Styles */
+  .footer-wrapper {
+    flex-direction: column; /* Stack footer items vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .link-wrapper {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center align links */
+    gap: 0.5rem; /* Adjust gap for spacing */
+  }
+
+  .icon-wrapper {
+    flex-direction: row; /* Keep icons in a row */
+    justify-content: center; /* Center align icons */
+    gap: 0.5rem; /* Adjust gap for spacing */
+  }
+
+  .footer-faded-text {
+    font-size: 0.8em; /* Smaller text size for footer */
+    text-align: center; /* Center align footer text */
+  }
+}
+
+/* Phone Screens (320px - 480px) */
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 1.5rem;
+  }
+
+  .footer-faded-text {
+    font-size: 0.9em;
+  }
+
+  .link-wrapper {
+    gap: 0.6rem;
+  }
+
+  .icon-wrapper {
+    gap: 0.8rem;
+  }
+
+  .link-wrapper div a {
+    font-size: 0.9em;
+  }
+}
+
+/* Tablet Screens (768px and up) */
+@media screen and (min-width: 768px) {
+  .footer-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-faded-text {
+    position: static;
+    font-size: 1.1em;
+    text-align: left;
+  }
+
+  .link-wrapper {
+    flex-direction: row;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+}
+
+/* Desktop Screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .footer-wrapper {
+    padding: 2rem 4rem;
+  }
+
+  .footer-faded-text {
+    position: absolute;
+    left: 35em;
+    bottom: 0.1em;
+    font-size: 1.2em;
+  }
+
+  .icon-wrapper {
+    justify-content: flex-end;
+  }
+
+  .link-wrapper {
+    gap: 1.5rem;
+  }
+}
+
+/* Large Desktop Screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .footer-faded-text {
+    left: 40em;
+    font-size: 1.3em;
+  }
+
+  .link-wrapper {
+    gap: 2rem;
+  }
+
+  .icon-wrapper {
+    gap: 1.5rem;
+  }
+}

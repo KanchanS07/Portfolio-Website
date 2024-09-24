@@ -42,3 +42,92 @@
 .contact-btn{
   margin: 2rem 2rem;
 }
+
+
+
+
+/* Media Queries for Responsive Design */
+
+/* For extra small devices (phones, max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .navbar video {
+    width: 200px; /* Adjust video size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack links vertically */
+    gap: 1rem; /* Reduce gap between links */
+  }
+
+  .nav-links li {
+    font-size: 1rem; /* Reduce font size */
+    text-align: left; /* Align text to the left */
+  }
+
+  .contact-btn {
+    margin: 1rem 0; /* Adjust margin for button */
+  }
+}
+
+/* For small devices (tablets, max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .navbar video {
+    width: 200px; /* Adjust video size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .nav-links {
+    gap: 2rem; /* Adjust gap between links */
+  }
+
+  .nav-links li {
+    font-size: 1.1rem; /* Slightly reduce font size */
+  }
+
+  .contact-btn {
+    margin: 1.5rem 0; /* Adjust margin for button */
+  }
+}
+
+/* For medium devices (desktops, min-width: 769px) */
+@media screen and (min-width: 769px) {
+  .navbar {
+    justify-content: space-between; /* Keep space between items */
+  }
+
+  .navbar video {
+    width: 260px; /* Maintain original size */
+    height: 115px; /* Maintain original size */
+  }
+
+  .nav-links li {
+    font-size: 1.2rem; /* Keep original font size */
+  }
+}
+
+/* For large devices (large desktops, min-width: 1200px) */
+@media screen and (min-width: 1200px) {
+  .navbar {
+    padding: 2rem; /* Increase padding for larger screens */
+  }
+
+  .navbar video {
+    width: 300px; /* Slightly larger video size */
+    height: 140px; /* Slightly larger height */
+  }
+
+  .nav-links li {
+    font-size: 1.3rem; /* Increase font size for better visibility */
+  }
+}

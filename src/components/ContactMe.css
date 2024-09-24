@@ -66,3 +66,126 @@
   padding:0 1rem;
   font-size:1.5rem;
 }
+
+
+
+/* Tablet Screens (768px and up) */
+@media screen and (min-width: 768px) {
+  .contactus-heading {
+    font-size: 4em;
+  }
+
+  .contactus-sub-heading {
+    font-size: 2rem;
+  }
+
+  .form {
+    width: 80%;
+    margin: 2rem 3rem;
+    gap: 30px;
+  }
+
+  .formfield {
+    font-size: 18px;
+    height: 42px;
+  }
+
+  #submit-btn {
+    font-size: 1.4rem;
+  }
+
+  .submit-icon {
+    font-size: 1.5rem;
+  }
+}
+
+/* Desktop Screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .contactus-form-container {
+    margin-top: 40px;
+    padding: 50px;
+  }
+
+  .contactus-heading {
+    font-size: 5em;
+  }
+
+  .contactus-sub-heading {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+  }
+
+  .form {
+    width: 70%;
+    margin: 2rem 5rem;
+  }
+
+  .formfield {
+    font-size: 20px;
+    height: 48px;
+    padding: 0 2rem;
+  }
+
+  #submit-btn {
+    font-size: 1.6rem;
+    padding: 12px 25px;
+  }
+
+  .submit-icon {
+    font-size: 1.7rem;
+  }
+}
+
+/* Large Desktop Screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .contactus-heading {
+    font-size: 5.5em;
+  }
+
+  .contactus-sub-heading {
+    font-size: 3rem;
+  }
+
+  .form {
+    width: 60%;
+  }
+
+  .formfield {
+    font-size: 22px;
+    height: 52px;
+  }
+
+  #submit-btn {
+    font-size: 1.8rem;
+  }
+
+  .submit-icon {
+    font-size: 2rem;
+  }
+}
+/* Mobile Styles (up to 768px) */
+@media screen and (max-width: 768px) {
+  /* Contact Me Styles */
+  .contactus-heading {
+    font-size: 3em; /* Smaller font size for headings */
+  }
+
+  .contactus-sub-heading {
+    font-size: 2rem; /* Smaller subheading */
+  }
+
+  .form {
+    width: 90%; /* Wider form width for smaller screens */
+    margin: 1rem; /* Adjust margin for better spacing */
+  }
+
+  .formfield {
+    height: 40px; /* Smaller input field height */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  #submit-btn {
+    font-size: 1.2rem; /* Smaller button font size */
+    padding: 0.5rem; /* Adjust padding */
+  }
+}
