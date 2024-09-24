@@ -1,7 +1,7 @@
 // import React from "react";
-import { useRef,useEffect } from "react";
+import { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import "./Home.css"
+import "./Home.css";
 
 function Home() {
   // Create a ref to attach the Typed.js instance to the DOM element
@@ -27,7 +27,7 @@ function Home() {
       typed.destroy();
     };
   }, []);
-  
+
   return (
     <div className="hero-section">
       <div className="absolute faded-text">Kanchan Soni</div>
@@ -59,22 +59,22 @@ function Home() {
       {/* Right Part */}
       <div className="hero-section-right">
         <div className="absolute icons icon-dot">
-          <img src="/public/images/userAssets/dots.png" alt="dots" />
+          <img src="./images/userAssets/dots.png" alt="dots" />
         </div>
         <div className="absolute icons icon-cube">
-          <img src="/public/images/userAssets/cube.png" alt="cube" />
+          <img src="./images/userAssets/cube.png" alt="cube" />
         </div>
         <div className="absolute icons icon-circle">
-          <img src="/public/images/userAssets/circle.png" alt="circle" />
+          <img src="./images/userAssets/circle.png" alt="circle" />
         </div>
         <div className="absolute icons icon-zigzag">
-          <img src="/public/images/userAssets/zigzags.png" alt="zigzag" />
+          <img src="./images/userAssets/zigzags.png" alt="zigzag" />
         </div>
         <div className="absolute icons icon-plus">
-          <img src="/public/images/userAssets/plus.png" alt="plus" />
+          <img src="./images/userAssets/plus.png" alt="plus" />
         </div>
         <div className="user-image">
-          <img src="/public/images/userImage2.jpeg" alt="User" />
+          <img src="./images/userImage2.jpeg" alt="User" />
         </div>
       </div>
     </div>

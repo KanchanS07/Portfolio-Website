@@ -5,7 +5,7 @@ import About from "./components/About";
 import Education from "./components/Education.jsx";
 import Projects from "./components/ProjectsSection.jsx";
 import Contact from "./components/ContactMe.jsx";
-import Footer from "./components/footer.jsx"
+import Footer from "./components/Footer.jsx"
 import "./App.css";
 
 function App() {

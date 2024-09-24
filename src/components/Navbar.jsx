@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <video  autoPlay muted>
-        <source src="/public/video/nameVideo.mp4" type="video/mp4" />
+        <source src="./video/nameVideo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <ul className="nav-links">
