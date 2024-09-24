@@ -70,12 +70,15 @@ main.row {
   }
 
   .col .contents .box::before {
-    margin-left: -50.25px;
+           margin-left: -66.25px;
   }
   .skill-fade-text{
     bottom: -12%;
     font-size: 8rem;
   }
+      .skill-container-right {
+        width: 43%;
+    }
 }
 
 /* Desktop Screens (1024px and up) */
@@ -102,10 +105,10 @@ main.row {
   .col .contents .box::before {
     width: 18px;
     height: 18px;
-    margin-left: -40px;
+   margin-left: -83px;
   }
   .skill-fade-text{
-    bottom: -16%;
+    bottom: -18%;
   }
 }
 
@@ -132,6 +135,7 @@ main.row {
   .col .contents .box::before {
     width: 20px;
     height: 20px;
+    margin-left: -99px;
   }
   .skill-fade-text{
     bottom: -13%;
