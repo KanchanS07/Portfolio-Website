@@ -70,7 +70,7 @@ const About = () => {
         />
         &nbsp;
         <img
-          src="/public/images/stack/Redux.svg"
+          src="/public/images/stack/Redux.png"
           title="Redux"
           alt="Redux"
           className="skills-logo"
@@ -154,14 +154,14 @@ const About = () => {
         />
         &nbsp;
         <img
-          src="/public/images/stack/MongoDB.svg"
+          src="/public/images/stack/MongoDB.png"
           title="MongoDB"
           alt="MongoDB"
           className="skills-logo"
         />
         &nbsp;
         <img
-          src="/public/images/stack/Vercel.svg"
+          src="/public/images/stack/Vercel.png"
           title="Vercel"
           alt="Vercel"
           className="skills-logo"
