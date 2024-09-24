@@ -57,11 +57,7 @@ const ProjectCard = ({
           </a>
           &nbsp;
           {githubLink && (
-            <a
-              href="https://github.com/your-repo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
               <FaGithub
                 title="GitHub Link"
                 className="icon"
@@ -70,11 +66,7 @@ const ProjectCard = ({
             </a>
           )}
           {liveLink && (
-            <a
-              href="https://your-live-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={liveLink} target="_blank" rel="noopener noreferrer">
               <FaLink title="Live Link" className="icon" aria-hidden="true" />
             </a>
           )}
