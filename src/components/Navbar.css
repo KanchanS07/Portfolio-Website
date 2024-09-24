@@ -1,0 +1,44 @@
+/* Styling for the navbar */
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+}
+.navbar video {
+     width: 260px;
+    height: 115px;
+    cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.nav-links li {
+ 
+  text-decoration: none;
+  font-size: 1.2rem;
+   width: auto;
+}
+
+.nav-links li:hover {
+  /* text-decoration: underline; */
+  font-weight:500;
+  color: red;
+ 
+}
+
+.contact-btn{
+  margin: 2rem 2rem;
+}

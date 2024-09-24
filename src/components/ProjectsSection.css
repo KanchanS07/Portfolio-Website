@@ -1,0 +1,23 @@
+.project-section {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    margin-top: 10rem;
+    
+}
+
+.page-header {
+    color: var(--bgOrange);
+    font-size: 90px;
+    padding: 30px;
+}
+
+.project-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 3rem 0;
+    gap: 120px;
+    color: white;
+}
+
