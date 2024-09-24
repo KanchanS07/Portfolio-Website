@@ -129,40 +129,6 @@
   }
 }
 
-/* Desktop Screens (1024px and up) */
-@media screen and (min-width: 1024px) {
-  .skills-container {
-    padding: 40px;
-  }
-
-  .skill-container-left {
-    width: 55%;
-  }
-
-  .skill-container-right {
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .skill-heading {
-    font-size: 32px;
-  }
-
-  .skill-subHeading p {
-    font-size: 20px;
-  }
-
-  .skills-logo {
-    width: 70px;
-  }
-
-  .blob-style {
-    max-width: 400px;
-  }
-}
 
 /* Large Desktop Screens (1440px and up) */
 @media screen and (min-width: 1440px) {

@@ -116,18 +116,3 @@
   }
 }
 
-/* For large devices (large desktops, min-width: 1200px) */
-@media screen and (min-width: 1200px) {
-  .navbar {
-    padding: 2rem; /* Increase padding for larger screens */
-  }
-
-  .navbar video {
-    width: 300px; /* Slightly larger video size */
-    height: 140px; /* Slightly larger height */
-  }
-
-  .nav-links li {
-    font-size: 1.3rem; /* Increase font size for better visibility */
-  }
-}

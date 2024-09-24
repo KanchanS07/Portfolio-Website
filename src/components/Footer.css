@@ -127,7 +127,7 @@ footer{
 
   .footer-faded-text {
     position: absolute;
-    left: 35em;
+    left: 25em;
     bottom: 0.1em;
     font-size: 1.2em;
   }
@@ -137,22 +137,6 @@ footer{
   }
 
   .link-wrapper {
-    gap: 1.5rem;
-  }
-}
-
-/* Large Desktop Screens (1440px and up) */
-@media screen and (min-width: 1440px) {
-  .footer-faded-text {
-    left: 40em;
-    font-size: 1.3em;
-  }
-
-  .link-wrapper {
-    gap: 2rem;
-  }
-
-  .icon-wrapper {
     gap: 1.5rem;
   }
 }

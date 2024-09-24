@@ -72,6 +72,10 @@ main.row {
   .col .contents .box::before {
     margin-left: -50.25px;
   }
+  .skill-fade-text{
+    bottom: -12%;
+    font-size: 8rem;
+  }
 }
 
 /* Desktop Screens (1024px and up) */
@@ -100,6 +104,9 @@ main.row {
     height: 18px;
     margin-left: -40px;
   }
+  .skill-fade-text{
+    bottom: -16%;
+  }
 }
 
 /* Large Desktop Screens (1440px and up) */
@@ -126,6 +133,9 @@ main.row {
     width: 20px;
     height: 20px;
   }
+  .skill-fade-text{
+    bottom: -13%;
+  }
 }
 
 
@@ -148,4 +158,8 @@ main.row {
   .row {
     grid-template-columns: 1fr; /* Stack columns on smaller screens */
   }
+  .skill-fade-text{
+    bottom: -10%;
+  }
+  
 }
