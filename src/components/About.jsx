@@ -37,7 +37,7 @@ const About = () => {
 
       <div className="skill-container-right">
         <img
-          src="/public/images/userAssets/blob vector.png"
+          src="./images/userAssets/blob vector.png"
           className="blob-style"
           alt=""
         />
@@ -70,7 +70,7 @@ const About = () => {
         />
         &nbsp;
         <img
-          src="/public/images/stack/Redux.png"
+          src="./images/stack/Redux.png"
           title="Redux"
           alt="Redux"
           className="skills-logo"
@@ -140,28 +140,28 @@ const About = () => {
         />
         &nbsp;
         <img
-          src="/public/images/stack/bcrypt.svg"
+          src="./images/stack/bcrypt.svg"
           title="bcrypt"
           alt="bcrypt"
           className="skills-logo"
         />
         &nbsp;
         <img
-          src="/public/images/stack/Express.png"
+          src="./images/stack/Express.png"
           title="ExpressJS"
           alt="Express"
           className="skills-logo"
         />
         &nbsp;
         <img
-          src="/public/images/stack/MongoDB.png"
+          src="./images/stack/MongoDB.png"
           title="MongoDB"
           alt="MongoDB"
           className="skills-logo"
         />
         &nbsp;
         <img
-          src="/public/images/stack/Vercel.png"
+          src="./images/stack/Vercel.png"
           title="Vercel"
           alt="Vercel"
           className="skills-logo"
